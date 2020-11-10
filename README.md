@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Getting Started
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a f2e learning code collection. updating...
 
-## Available Scripts
+## install node.js
 
-In the project directory, you can run:
+Download Node.js and Install it.
 
-### `npm start`
+> https://nodejs.org/en/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## clone project and install modules
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
+git clone https://github.com/Ryan-Shz/Exps.git
+cd exps
+npm install 
+```
 
-### `npm test`
+## Collections Content
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### react
 
-### `npm run build`
+* todo-list
+*  tic-tac-toe game
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### node
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* 创建简单的node服务
+* 使用nodemon释放生产力
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### express
 
-### `npm run eject`
+* 创建express服务应用
+* express的路由配置
+* 中间件的作用？
+* 如何自定义一个中间件？
+* 使用中间件处理全局异常
+* sql在node中的应用
+* orm框架sequlize的使用
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Scripts
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Run a React Demo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+npm run start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Start node server
 
-## Learn More
+```
+npm run start:node
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Start node server by nodemon
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm run start: nodemon
+```
 
-### Code Splitting
+### Start Express Demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+npm run start:express
+```
