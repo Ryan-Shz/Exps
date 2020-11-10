@@ -6,16 +6,21 @@
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.1",
     "@testing-library/user-event": "^12.2.0",
+    "mysql2": "^2.2.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.0",
+    "sequelize": "^6.3.5",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start:node": "node src/node/node.js",
+    "start:nodemon": "nodemon src/node/node.js",
+    "start:express": "nodemon src/node/express/index.js"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
