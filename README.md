@@ -37,6 +37,7 @@ npm install
 * 使用中间件处理全局异常
 * sql在node中的应用
 * orm框架sequlize的使用
+* TodoList实战案例
 
 ## Scripts
 
@@ -55,11 +56,16 @@ npm run start:node
 ### Start node server by nodemon
 
 ```
-npm run start: nodemon
+npm run start:nodemon
 ```
 
 ### Start Express Demo
 
 ```
 npm run start:express
+```
+
+### Start Express TodoList Server
+```
+npm run start:todo
 ```
