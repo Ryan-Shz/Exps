@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link ref="stylesheet" href='/public/css/main.css'>
+</head>
+<body>
+    <h1>这是首页</h1>
+    <script src="/public/js/main.js"></script>
+    <!-- EJS模板引擎中接收变量的方式 -->
+    <p><%=res.id%></p>
+    <p><%=res.name%></p>
+    <img src='/public/img/avatar.png' />
+    <!-- 模板引擎中使用语句的方式 -->
+    <ul>
+        <%for(var i=0; i < list.length; i++){%>
+        <li><%=list[i]%></li>
+        <%}%>
+    </ul>
+</body>
+</html>

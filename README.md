@@ -13,6 +13,7 @@ Download Node.js and Install it.
 ```
 git clone https://github.com/Ryan-Shz/Exps.git
 cd exps
+cd <sample dir>
 npm install 
 ```
 
@@ -39,33 +40,59 @@ npm install
 * orm框架sequlize的使用
 * TodoList实战案例
 
+### eggjs
+
+* 路由配置
+* Controller 的应用
+* Services 的应用
+* 模板渲染框架 EJS 的使用
+
 ## Scripts
 
 ### Run a React Demo
 
 ```
+cd express-sample
+npm i
 npm run start
 ```
 
 ### Start node server
 
 ```
+cd express-sample
+npm i
 npm run start:node
 ```
 
 ### Start node server by nodemon
 
 ```
+cd express-sample
+npm i
 npm run start:nodemon
 ```
 
 ### Start Express Demo
 
 ```
+cd express-sample
+npm i
 npm run start:express
 ```
 
 ### Start Express TodoList Server
 ```
+cd express-sample
+npm i
 npm run start:todo
 ```
+
+### start Egg Demo Server
+
+```
+cd eggjs-sample
+npm i
+npm run dev
+```
+

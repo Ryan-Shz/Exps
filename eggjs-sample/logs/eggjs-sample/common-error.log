@@ -1,0 +1,594 @@
+2020-11-12 20:38:50,177 ERROR 76583 [-/127.0.0.1/-/6ms GET /?name=%E6%89%8B%E6%9C%BA] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view/lib/context_view.js:69:39)
+    at async HomeController.index (/Users/zhushuhang/workplace/github/eggjs-sample/app/controller/home.js:8:5)
+    at async /Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 76583
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 20:38:57,342 ERROR 76583 [-/127.0.0.1/-/4ms GET /] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view/lib/context_view.js:69:39)
+    at async HomeController.index (/Users/zhushuhang/workplace/github/eggjs-sample/app/controller/home.js:8:5)
+    at async /Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 76583
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 20:39:45,926 ERROR 76583 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view/lib/context_view.js:69:39)
+    at async HomeController.index (/Users/zhushuhang/workplace/github/eggjs-sample/app/controller/home.js:8:5)
+    at async /Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 76583
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 20:44:09,717 ERROR 76654 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: /Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:15
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < lists.length; i++){%>
+    16|         <li><%=lists[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+lists is not defined
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < lists.length; i++){%>
+    16|         <li><%=lists[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+lists is not defined
+    at eval (/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:18:24)
+    at index (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view/lib/context_view.js:70:23)
+    at async HomeController.index (/Users/zhushuhang/workplace/github/eggjs-sample/app/controller/home.js:9:5)
+path: "/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html"
+pid: 76654
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 20:44:41,961 ERROR 76736 [-/127.0.0.1/-/6ms GET /] nodejs.ReferenceError: /Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:15
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < lists.length; i++){%>
+    16|         <li><%=lists[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+lists is not defined
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < lists.length; i++){%>
+    16|         <li><%=lists[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+lists is not defined
+    at eval (/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:18:24)
+    at index (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view/lib/context_view.js:70:23)
+    at async HomeController.index (/Users/zhushuhang/workplace/github/eggjs-sample/app/controller/home.js:9:5)
+path: "/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html"
+pid: 76736
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 20:44:42,391 ERROR 76736 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: /Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:15
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < lists.length; i++){%>
+    16|         <li><%=lists[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+lists is not defined
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < lists.length; i++){%>
+    16|         <li><%=lists[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+lists is not defined
+    at eval (/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:18:24)
+    at index (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view/lib/context_view.js:70:23)
+    at async HomeController.index (/Users/zhushuhang/workplace/github/eggjs-sample/app/controller/home.js:9:5)
+path: "/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html"
+pid: 76736
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 20:44:42,797 ERROR 76736 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: /Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:15
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < lists.length; i++){%>
+    16|         <li><%=lists[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+lists is not defined
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < lists.length; i++){%>
+    16|         <li><%=lists[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+lists is not defined
+    at eval (/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:18:24)
+    at index (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view/lib/context_view.js:70:23)
+    at async HomeController.index (/Users/zhushuhang/workplace/github/eggjs-sample/app/controller/home.js:9:5)
+path: "/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html"
+pid: 76736
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 20:44:43,088 ERROR 76736 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: /Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:15
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < lists.length; i++){%>
+    16|         <li><%=lists[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+lists is not defined
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < lists.length; i++){%>
+    16|         <li><%=lists[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+lists is not defined
+    at eval (/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:18:24)
+    at index (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view/lib/context_view.js:70:23)
+    at async HomeController.index (/Users/zhushuhang/workplace/github/eggjs-sample/app/controller/home.js:9:5)
+path: "/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html"
+pid: 76736
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 20:44:43,280 ERROR 76736 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: /Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:15
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < lists.length; i++){%>
+    16|         <li><%=lists[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+lists is not defined
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < lists.length; i++){%>
+    16|         <li><%=lists[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+lists is not defined
+    at eval (/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:18:24)
+    at index (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view/lib/context_view.js:70:23)
+    at async HomeController.index (/Users/zhushuhang/workplace/github/eggjs-sample/app/controller/home.js:9:5)
+path: "/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html"
+pid: 76736
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 20:45:07,337 ERROR 76739 [-/127.0.0.1/-/2ms GET /] nodejs.ReferenceError: /Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:15
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < list.length; i++){%>
+    16|         <li><%=list[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+list is not defined
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < list.length; i++){%>
+    16|         <li><%=list[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+list is not defined
+    at eval (/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:18:24)
+    at index (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view/lib/context_view.js:70:23)
+    at async HomeController.index (/Users/zhushuhang/workplace/github/eggjs-sample/app/controller/home.js:9:5)
+path: "/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html"
+pid: 76739
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 21:40:46,928 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 298327ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 21:46:29,358 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 301660ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 21:52:11,309 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 301898ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 21:54:06,850 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 95455ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 21:59:48,665 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 300742ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 22:05:30,441 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 301740ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 22:11:32,393 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 299671ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 22:44:06,114 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 1833389ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 23:23:26,839 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 301764ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 23:28:48,603 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 301737ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 23:34:30,383 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 301750ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 23:40:12,848 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 301772ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 23:45:54,632 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 301752ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 23:51:16,493 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 301769ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-13 00:22:35,494 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 1838971ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-13 00:54:26,233 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 1870701ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-13 02:55:05,669 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 7219401ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-13 03:00:47,574 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 301757ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-13 03:12:11,285 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 301770ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-13 03:17:33,060 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 301751ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-13 03:28:56,642 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 301770ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-13 04:00:33,824 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 1857143ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-13 04:31:15,937 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 1821134ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-13 06:32:14,444 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 7217911ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-13 06:37:56,231 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 301759ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-13 06:43:19,783 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 302664ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-13 06:49:00,722 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 300908ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-13 06:54:43,333 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 301753ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-13 07:00:25,528 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 301841ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-13 07:05:47,314 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 301761ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-13 07:36:59,051 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 1831669ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-13 07:43:47,758 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 368667ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-13 08:20:45,888 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 301788ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-13 08:26:07,678 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 301762ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-13 08:31:49,473 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 301763ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-13 08:37:31,348 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 301742ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-13 08:43:13,206 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 301826ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-13 08:48:34,971 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 301746ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-13 09:20:14,813 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 1859806ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-13 09:30:13,301 ERROR 76582 nodejs.ClusterClientNoResponseError: client no response in 558438ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 76582
+hostname: zhushuhangdeMacBook-Pro-2.local
+

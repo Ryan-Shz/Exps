@@ -1,0 +1,338 @@
+2020-11-12 20:10:54,557 WARN 75814 [-/127.0.0.1/-/14ms POST /product/create] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-11-12 20:10:54,558 WARN 75814 [-/127.0.0.1/-/16ms POST /product/create] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/node_modules/koa-compose/index.js:47:32)
+    at /Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/node_modules/koa-compose/index.js:39:12
+    at dispatch (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa/node_modules/koa-compose/index.js:47:32)
+    at session (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa/node_modules/koa-compose/index.js:47:32)
+    at overrideMethod (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa/node_modules/koa-compose/index.js:47:32)
+message: "invalid csrf token"
+pid: 75814
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 20:11:30,400 WARN 75836 [-/127.0.0.1/-/12ms POST /product/create] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-11-12 20:11:30,401 WARN 75836 [-/127.0.0.1/-/13ms POST /product/create] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/node_modules/koa-compose/index.js:47:32)
+    at /Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/node_modules/koa-compose/index.js:39:12
+    at dispatch (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa/node_modules/koa-compose/index.js:47:32)
+    at session (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa/node_modules/koa-compose/index.js:47:32)
+    at overrideMethod (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa/node_modules/koa-compose/index.js:47:32)
+message: "invalid csrf token"
+pid: 75836
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 20:13:21,115 WARN 75874 [-/127.0.0.1/-/12ms POST /product/create] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-11-12 20:13:21,117 WARN 75874 [-/127.0.0.1/-/14ms POST /product/create] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/node_modules/koa-compose/index.js:47:32)
+    at /Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/node_modules/koa-compose/index.js:39:12
+    at dispatch (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa/node_modules/koa-compose/index.js:47:32)
+    at session (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa/node_modules/koa-compose/index.js:47:32)
+    at overrideMethod (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa/node_modules/koa-compose/index.js:47:32)
+message: "invalid csrf token"
+pid: 75874
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 20:13:22,092 WARN 75874 [-/127.0.0.1/-/0ms POST /product/create] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-11-12 20:13:22,093 WARN 75874 [-/127.0.0.1/-/1ms POST /product/create] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/node_modules/koa-compose/index.js:47:32)
+    at /Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/node_modules/koa-compose/index.js:39:12
+    at dispatch (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa/node_modules/koa-compose/index.js:47:32)
+    at session (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa/node_modules/koa-compose/index.js:47:32)
+    at overrideMethod (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa/node_modules/koa-compose/index.js:47:32)
+message: "invalid csrf token"
+pid: 75874
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 20:38:50,178 ERROR 76583 [-/127.0.0.1/-/6ms GET /?name=%E6%89%8B%E6%9C%BA] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view/lib/context_view.js:69:39)
+    at async HomeController.index (/Users/zhushuhang/workplace/github/eggjs-sample/app/controller/home.js:8:5)
+    at async /Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 76583
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 20:38:57,343 ERROR 76583 [-/127.0.0.1/-/4ms GET /] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view/lib/context_view.js:69:39)
+    at async HomeController.index (/Users/zhushuhang/workplace/github/eggjs-sample/app/controller/home.js:8:5)
+    at async /Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 76583
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 20:39:45,926 ERROR 76583 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view/lib/context_view.js:88:5)
+    at ContextView.[contextView#render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view/lib/context_view.js:69:39)
+    at async HomeController.index (/Users/zhushuhang/workplace/github/eggjs-sample/app/controller/home.js:8:5)
+    at async /Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/koa-bodyparser/index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 76583
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 20:44:09,718 ERROR 76654 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: /Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:15
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < lists.length; i++){%>
+    16|         <li><%=lists[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+lists is not defined
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < lists.length; i++){%>
+    16|         <li><%=lists[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+lists is not defined
+    at eval (/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:18:24)
+    at index (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view/lib/context_view.js:70:23)
+    at async HomeController.index (/Users/zhushuhang/workplace/github/eggjs-sample/app/controller/home.js:9:5)
+path: "/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html"
+pid: 76654
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 20:44:41,961 ERROR 76736 [-/127.0.0.1/-/6ms GET /] nodejs.ReferenceError: /Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:15
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < lists.length; i++){%>
+    16|         <li><%=lists[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+lists is not defined
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < lists.length; i++){%>
+    16|         <li><%=lists[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+lists is not defined
+    at eval (/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:18:24)
+    at index (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view/lib/context_view.js:70:23)
+    at async HomeController.index (/Users/zhushuhang/workplace/github/eggjs-sample/app/controller/home.js:9:5)
+path: "/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html"
+pid: 76736
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 20:44:42,392 ERROR 76736 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: /Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:15
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < lists.length; i++){%>
+    16|         <li><%=lists[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+lists is not defined
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < lists.length; i++){%>
+    16|         <li><%=lists[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+lists is not defined
+    at eval (/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:18:24)
+    at index (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view/lib/context_view.js:70:23)
+    at async HomeController.index (/Users/zhushuhang/workplace/github/eggjs-sample/app/controller/home.js:9:5)
+path: "/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html"
+pid: 76736
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 20:44:42,797 ERROR 76736 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: /Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:15
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < lists.length; i++){%>
+    16|         <li><%=lists[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+lists is not defined
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < lists.length; i++){%>
+    16|         <li><%=lists[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+lists is not defined
+    at eval (/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:18:24)
+    at index (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view/lib/context_view.js:70:23)
+    at async HomeController.index (/Users/zhushuhang/workplace/github/eggjs-sample/app/controller/home.js:9:5)
+path: "/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html"
+pid: 76736
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 20:44:43,088 ERROR 76736 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: /Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:15
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < lists.length; i++){%>
+    16|         <li><%=lists[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+lists is not defined
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < lists.length; i++){%>
+    16|         <li><%=lists[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+lists is not defined
+    at eval (/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:18:24)
+    at index (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view/lib/context_view.js:70:23)
+    at async HomeController.index (/Users/zhushuhang/workplace/github/eggjs-sample/app/controller/home.js:9:5)
+path: "/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html"
+pid: 76736
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 20:44:43,280 ERROR 76736 [-/127.0.0.1/-/1ms GET /] nodejs.ReferenceError: /Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:15
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < lists.length; i++){%>
+    16|         <li><%=lists[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+lists is not defined
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < lists.length; i++){%>
+    16|         <li><%=lists[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+lists is not defined
+    at eval (/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:18:24)
+    at index (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view/lib/context_view.js:70:23)
+    at async HomeController.index (/Users/zhushuhang/workplace/github/eggjs-sample/app/controller/home.js:9:5)
+path: "/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html"
+pid: 76736
+hostname: zhushuhangdeMacBook-Pro-2.local
+
+2020-11-12 20:45:07,338 ERROR 76739 [-/127.0.0.1/-/2ms GET /] nodejs.ReferenceError: /Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:15
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < list.length; i++){%>
+    16|         <li><%=list[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+list is not defined
+    13|     <!--  -->
+    14|     <ul>
+ >> 15|         <%for(var i=0; i < list.length; i++){%>
+    16|         <li><%=list[i]%></li>
+    17|         <%}%>
+    18|     </ul>
+
+list is not defined
+    at eval (/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html:18:24)
+    at index (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:682:17)
+    at tryHandleCache (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:254:36)
+    at Object.exports.renderFile (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/ejs/lib/ejs.js:485:10)
+    at /Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:15:12)
+    at EjsView.render (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view-ejs/lib/view.js:28:36)
+    at ContextView.[contextView#render] (/Users/zhushuhang/workplace/github/eggjs-sample/node_modules/egg-view/lib/context_view.js:70:23)
+    at async HomeController.index (/Users/zhushuhang/workplace/github/eggjs-sample/app/controller/home.js:9:5)
+path: "/Users/zhushuhang/workplace/github/eggjs-sample/app/view/index.html"
+pid: 76739
+hostname: zhushuhangdeMacBook-Pro-2.local
+
