@@ -46,6 +46,7 @@ npm install
 * Controller 的应用
 * Services 的应用
 * 模板渲染框架 EJS 的使用
+* 文章管理Api案例
 
 ## Scripts
 
@@ -96,3 +97,12 @@ npm i
 npm run dev
 ```
 
+### start Egg Article-Demo Server
+
+```
+cd eggjs-article-sample
+npm i
+npm run dev
+```
+
+ 
