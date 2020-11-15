@@ -14,3 +14,4 @@ new Promise(resolve => {
     console.log(value + 'world!')
 });
     
+
