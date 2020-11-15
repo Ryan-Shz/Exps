@@ -22,6 +22,7 @@ npm install
 ### JavaScript
 
 * Promise
+* ES6新特性汇总
 
 ### react
 
