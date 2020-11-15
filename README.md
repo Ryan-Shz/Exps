@@ -19,6 +19,10 @@ npm install
 
 ## Collections Content
 
+### JavaScript
+
+* Promise
+
 ### react
 
 * todo-list
