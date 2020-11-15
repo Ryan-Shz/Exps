@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">我是一个按钮</button>
+    <script>
+        const btn = document.querySelector('#btn');
+        // 箭头函数没有this，当使用到this时，会往上层作用域寻找
+        // 比如此处作为事件回调时，this指向window
+        btn.addEventListener('click', () => {
+            // true
+            console.log(this === window);
+            // error!
+            this.style.backgroundColor = '#f00';
+        });
+    </script>
+</body>
+</html>
