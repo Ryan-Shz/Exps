@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Hello World!
+    <!-- 必须加上type='module'，否则会报以下错误: -->
+    <!-- Uncaught SyntaxError: Cannot use import statement outside a module -->
+    <script type='module'>
+        // export default 相关导入测试
+        // 1. 导入对象
+        import obj from './export.obj.js';
+        console.log('obj name: ' + obj.name);
+        obj.say();
+        // 2. 导入函数
+        import func from './export.func.js';
+        func();
+        // 3. 导入常量
+        import constV from './export.const.js';
+        console.log(constV);
+        // 4. 导入变量
+        import variant from './export.variant.js';
+        console.log(variant);
+        // 5. 导入类
+        import Person from './export.class.js';
+        let person = new Person('Ryan', 12);
+        console.log(person);
+
+        // export 相关导入测试
+        import {author, str, testFunc, testVar} from './export.simple.js'
+        console.log(author.name, author.age, str, testVar);
+        testFunc();
+    </script>
+</body>
+</html>
