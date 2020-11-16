@@ -1,3 +1,5 @@
+// 解构语法示例
+
 // 定义一个对象
 const person = {
   name: "Ryan",
