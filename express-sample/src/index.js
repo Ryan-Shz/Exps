@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Game from './react/game/game'
-import TodoList from './react/todolist/todolist'
+import TodoList from './react/todo-list'
 
 ReactDOM.render(
   <React.StrictMode>

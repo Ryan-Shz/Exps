@@ -1,5 +1,5 @@
 import {Component, Fragment} from 'react';
-import TodoItem from './todoitem'
+import TodoItem from './todo-item'
 import './style.css'
 
 class TodoList extends Component {
