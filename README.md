@@ -27,7 +27,9 @@ npm install
 ### react
 
 * todo-list
-*  tic-tac-toe game
+* tic-tac-toe
+* animation-sapme
+* antd-redux-sample
 
 ### node
 
