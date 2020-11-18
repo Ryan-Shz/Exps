@@ -2,7 +2,7 @@
 // 数据保存在 state 对象中
 
 // 导入定义好的action type
-import { CHANGE_INPUT_VALUE, ADD_TODO_ITEM, DELETE_ITEM } from "./actionTypes";
+import { CHANGE_INPUT_VALUE, ADD_TODO_ITEM, DELETE_ITEM, LOAD_TODO_ITEM } from "./actionTypes";
 
 const defaultState = {
   inputValue: "",
@@ -27,6 +27,11 @@ const func = (state = defaultState, action) => {
     let newState = JSON.parse(JSON.stringify(state));
     let index = action.index;
     newState.todoList.splice(index, 1);
+    return newState;
+  }
+  if (action.type === LOAD_TODO_ITEM) {
+    let newState = JSON.parse(JSON.stringify(state));
+    newState.todoList = action.todoList;
     return newState;
   }
   return state;
