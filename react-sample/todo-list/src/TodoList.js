@@ -122,6 +122,47 @@ class TodoList extends React.Component {
       };
     });
   }
+
+  // 生命周期函数
+  // 在组件即将挂载前调用
+  // 在React16开始已被废弃
+  UNSAFE_componentWillMount(){
+    console.log('componentWillMount');
+  }
+
+  // 组件被挂载到页面后执行
+  componentDidMount() {
+    console.log('componentDidMount');
+  }
+
+  // 组件Props更新时调用
+  UNSAFE_componentWillReceiveProps() {
+    console.log('componentWillReceiveProps');
+  }
+
+  // 组件被更新之前执行
+  // 返回组件是否需要被更新，如果返回false，后面的生命周期函数将不会再被调用
+  shouldComponentUpdate() {
+    console.log('shouldComponentUpdate');
+    return true;
+  }
+
+  // 组件即将被刷新之前调用
+  // 是否调用取决于shouldComponentUpdate的返回结果
+  // 在React16开始已被废弃
+  UNSAFE_componentWillUpdate() {
+    console.log('componentWillUpdate');
+  }
+
+  // 组件刷新完成后调用
+  componentDidUpdate() {
+    console.log('componentDidUpdate');
+  }
+
+  // 当组件即将从dom中移除时调用
+  componentWillUnmount() {
+    console.log('componentWillUnmount');
+  }
 }
 
 export default TodoList;
