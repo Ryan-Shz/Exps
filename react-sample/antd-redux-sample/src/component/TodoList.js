@@ -53,14 +53,13 @@ class TodoList extends React.Component {
   }
 
   componentDidMount() {
-    // loadWithReduxThunk();
+    this.loadWithRedux();
   }
 
-  loadWithReduxThunk() {
+  loadWithRedux() {
     let action = createLoadTodoListAction();
     store.dispatch(action);
   }
-
 }
 
 export default TodoList;
