@@ -1,9 +1,6 @@
-const defaultState = {
+import { combineReducers }  from 'redux';
+import { reducer as headerReducers } from '../common/header/store';
 
-}
-
-const func = (state, action) => {
-    
-}
-
-export default func;
+export default combineReducers({
+    header: headerReducers
+});

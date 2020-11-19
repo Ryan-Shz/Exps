@@ -1,10 +1,9 @@
 import React from 'react';
 import { GlobalStyle } from "./global";
-import { IconFont } from "./static/iconfont/iconfont"
-
+import { IconFont } from "./static/iconfont/iconfont";
 import Header from './common/header'
 
-function App() {
+function App(props) {
   return (
     <div className="App">
       <GlobalStyle />
