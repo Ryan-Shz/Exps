@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #father {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            border: 2px solid;
+            top: 20px;
+        }
+        #son {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background: blue;
+            right: 0;
+            bottom: 0;
+        }
+        #fixed {
+            position: fixed;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="father">
+        123
+        <div id="son">Som</div>
+    </div>
+    <div id="fixed">456</div>
+    <div>789</div>
+    <div>123</div>
+</body>
+</html>
