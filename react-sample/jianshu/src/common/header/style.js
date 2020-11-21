@@ -118,7 +118,11 @@ export const SearchInfoSwitch = styled.span`
   font-size: 12px;
   color: #969696;
   .refresh {
+    display: inline-block;
     margin-right: 5px;
+    font-size: 12px;
+    transition: transform .4s ease-out;
+    transform-origin: center center;
   }
 `;
 

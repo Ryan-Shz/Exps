@@ -2,6 +2,7 @@ import React from "react";
 import { CSSTransition } from "react-transition-group";
 import { connect } from "react-redux";
 import { actionCreators } from "./store";
+import { Link } from "react-router-dom";
 
 import {
   HeaderWrapper,
@@ -26,7 +27,10 @@ class Header extends React.Component {
       <HeaderWrapper>
         <Logo />
         <Nav>
-          <NavItem className="left active">首页</NavItem>
+          {/* 路由跳转 */}
+          <Link to="/">
+            <NavItem className="left active">首页</NavItem>
+          </Link>
           <NavItem className="left">下载App</NavItem>
           <NavItem className="right">登录</NavItem>
           <NavItem className="right">
@@ -60,14 +64,21 @@ class Header extends React.Component {
   }
 
   createSearchInfoComponent(focused, list) {
-    let { onMouseEnter, onMouseLeave, isMouseEnter, pageIndex, pageSize, onChangeSearchListPage } = this.props;
+    let {
+      onMouseEnter,
+      onMouseLeave,
+      isMouseEnter,
+      pageIndex,
+      pageSize,
+      onChangeSearchListPage,
+    } = this.props;
     let itemList = [];
-    if (list && list.size) { 
+    if (list && list.size) {
       let start = pageIndex * 10;
       let end = start + pageSize;
       list = list.toJS();
       for (let i = start; i < end; i++) {
-        itemList.push(<SearchInfoItem key={i}>{list[i]}</SearchInfoItem>)
+        itemList.push(<SearchInfoItem key={i}>{list[i]}</SearchInfoItem>);
       }
     }
     return (
@@ -78,8 +89,19 @@ class Header extends React.Component {
         >
           <SearchInfoTitle>
             热门搜索
-            <SearchInfoSwitch onClick={onChangeSearchListPage}>
-              <i className="iconfont refresh">&#xe610;</i>
+            <SearchInfoSwitch
+              onClick={() => {
+                onChangeSearchListPage(this.refreshIcon);
+              }}
+            >
+              <i
+                ref={(icon) => {
+                  this.refreshIcon = icon;
+                }}
+                className="iconfont refresh"
+              >
+                &#xe610;
+              </i>
               换一批
             </SearchInfoSwitch>
           </SearchInfoTitle>
@@ -97,7 +119,7 @@ function mapStateToProps(state) {
     isMouseEnter: state.getIn(["header", "isMouseEnter"]),
     pageIndex: state.getIn(["header", "pageIndex"]),
     pageSize: state.getIn(["header", "pageSize"]),
-    totalPageSize: state.getIn(["header", "totalPageSize"])
+    totalPageSize: state.getIn(["header", "totalPageSize"]),
   };
 }
 
@@ -121,10 +143,17 @@ function mapDispatchToProps(dispatch) {
     onMouseLeave() {
       dispatch(actionCreators.createChangeMouseLeaveAction());
     },
-    onChangeSearchListPage() {
-        console.log(123);
+    onChangeSearchListPage(refreshIcon) {
+      // 获取transform中rotate的原始角度
+      let originAngle = refreshIcon.style.transform.replace(/[^0-9]/ig, '');
+      if (originAngle) {
+        originAngle = parseInt(originAngle, 10);
+      } else {
+        originAngle = 0;
+      }
+      refreshIcon.style.transform = `rotate(${originAngle + 360}deg)`;
       dispatch(actionCreators.createChangeSearchListChangeAction());
-    }
+    },
   };
 }
 

@@ -28,8 +28,9 @@ const func = (state = defaultState, action) => {
       return state.set("isMouseEnter", action.isEnter);
     case actionTypes.SEARCH_INFO_LIST_CHANGE:
       let index = state.get("pageIndex") + 1;
+      let totalSize = state.get("totalPageSize");
       let size = state.get("pageSize");
-      if (index + 1 === state.get("totalPageSize")) {
+      if (index + 1 === totalSize) {
         index = 0;
         size = state.get("list").size % 10;
       } else {
