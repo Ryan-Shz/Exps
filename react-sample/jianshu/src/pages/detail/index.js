@@ -1,14 +1,21 @@
 import React from 'react';
+import { connect } from 'react-redux';
+import { withRouter } from 'react-router-dom'
 
 class Detail extends React.Component {
 
     render() {
         return (
             <div>
-                Detail
+                <h1>Detail Page</h1>
+                Receive Props Match Params: id = {this.props.match.params.id}
             </div>
         );
     }
 }
 
-export default Detail;
+function mapState(state) {
+
+};
+
+export default connect(mapState, null)(withRouter(Detail));
