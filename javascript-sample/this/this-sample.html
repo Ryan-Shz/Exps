@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>This测试</h1>
+    <script>
+      function a() {
+        var user = "Ryan";
+        console.log(this.user);
+        console.log(this);
+        console.log(this === window); // true
+      }
+      // 直接调用 a函数，实际上是通过window对象调用
+      // 以下两个是等价的
+      a();
+      window.a();
+
+      var o1 = {
+        user: "Ryan",
+        fn: function () {
+          // 这里的this指向obj
+          console.log("o1: " + this.user); // Ryan
+        },
+      };
+      o1.fn();
+
+      var o2 = {
+        user: "Ryan",
+        fn: function () {
+          console.log("o2: " + this.user);
+        },
+      };
+      window.o2.fn();
+
+      var o3 = {
+        a: 10,
+        b: {
+          a: 12,
+          fn: function () {
+            console.log(this.a); //undefined
+            console.log(this); //window
+          },
+        },
+      };
+      var func3 = o3.b.fn;
+      func3();
+
+      // 构造函数中的this
+      function b() {
+        console.log(this); // window
+        this.user = "Ryan";
+      }
+      b();
+      // 使用 new 改变构造函数中this的指向
+      var o4 = new b();
+      console.log(o4.user);
+      // 
+      var c = 11;
+      function test1() {
+        this.c = 22;
+        let d = function () {
+          console.log(this.c);
+        };
+        d();
+      }
+      var x = new test1(); // 11 
+    </script>
+  </body>
+</html>
